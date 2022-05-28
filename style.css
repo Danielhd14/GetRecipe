@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://www.twinpalmshotelsresorts.com/wp-content/uploads/2019/08/Farmhouse-48-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+input[type='text']{
+    width: 30%;
+    height: 30px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+}
+button{
+    border-radius: 10px;
+    margin-left: 5%;
+    width: 10%;
+    height: 50px;
+    font-size: 30px;
+    background-color: white;
+}
+button:active{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+.dec{
+    border-radius: 20px;
+    background-color: pink;
+    margin: 30px auto;
+    padding: 30px;
+    width: 85%;
+
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+li{
+    margin: 15px 0;
+    font-size: 28px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.items{
+    width: 90%;
+}
+img{
+    border-radius: 20px;
+}
