@@ -18,8 +18,9 @@ async function search(){
     for(let i = 0; i < data.searchResults[0].results.length;i++){
         recipeList.innerHTML += `
         <li><a target='_blank' href = '${data.searchResults[0].results[i].link}'> ${data.searchResults[0].results[i].name}</a></li>
-        <a target='_blank' href ='${data.searchResults[0].results[i].link}'><img src = '${data.searchResults[0].results[i].image}' width='250px'></a>
+        <a target='_blank' href ='${data.searchResults[0].results[i].link}'><img src = '${data.searchResults[0].results[i].image}' width='500px' height='250px'></a>
    `    
     }
 
 }
+search()
